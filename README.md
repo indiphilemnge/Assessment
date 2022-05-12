@@ -22,18 +22,18 @@ run $ pytest question2.py
  $ python question3.py
 
 #Question 4 
-Create the docker Image for the python script
+- Create the docker Image for the python script
 
 UBUNTU  (18.04)
 
 - install Docker and Curl
 
-$ sudo apt update
-$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-$ apt-cache policy docker-ce
-$ sudo apt install docker-ce
+- $ sudo apt update
+- $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+- $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+- $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+- $ apt-cache policy docker-ce
+- $ sudo apt install docker-ce
 
 - Create a custom script (e.g /q3solution.py)
 - Run the script using $ python3 q3solution.py
@@ -42,7 +42,7 @@ $ sudo apt install docker-ce
 - in the URL variable add and website of your choice from 
 		
 #Create a docker image
- To Create Dockerfile (Dockerfile)
+ - To Create Dockerfile (Dockerfile)
 	- Create a new file
 	- select the filetype as Dockerfile
 	- Add the environent variables
