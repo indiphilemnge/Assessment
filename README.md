@@ -56,6 +56,5 @@ $ sudo apt install docker-ce
 6. Allow it to install the dependencies defined.
 7. Once it's done, check the docker images
 	$ docker images
-Note: The image created must be on the list.
 8. $ docker run -e times=5 <image-name>
  
