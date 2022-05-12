@@ -53,8 +53,11 @@ UBUNTU  (18.04)
 	- Define the entrypoint, execute the python command ["python","question3.py"]
 	- $  docker build . [ "." means will will run everything ]
 
-6. Allow it to install the dependencies defined.
-7. Once it's done, check the docker images
+- Allow it to install the dependencies defined.
+- Once it's done, check the docker images
 	$ docker images
-8. $ docker run -e times=5 <image-name>
+	(all images should appear including the new image)
+
+- Run the Docker
+	- Run $ docker run -e times=5 <image-name>
  
