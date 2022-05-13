@@ -35,11 +35,10 @@ UBUNTU  (18.04)
 - $ apt-cache policy docker-ce
 - $ sudo apt install docker-ce
 
-- Create a custom script (e.g /q3solution.py)
-- Run the script using $ python3 q3solution.py
+- Create a custom script 
+- Run the script using $ python question3.py
 - The output of the script should display the time is it took to his the specified websites.
-- To check a different website, edit array in  the script (q3solution.py)
-- in the URL variable add and website of your choice from 
+- in the URL variable (site) add and website of your choice from 
 		
 #Create a docker image
  - To Create Dockerfile (Dockerfile)
